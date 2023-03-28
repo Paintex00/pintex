@@ -1,0 +1,250 @@
+﻿<!--This declaration is information to the browser about what document type to expect-->
+<!DOCTYPE html>
+<!--Comment-->
+<html>
+<!-- The Head contains information that will not be displayed on the webpage but will act on the data and format-->
+<head>
+    <title>Pintex</title>
+    <link rel='stylesheet' href='style/style.css'>
+    <meta charset="utf-8" />
+    <meta name="description" content="Service de peinture extérieur et intérieur">
+    <meta name="keywords" content="Peinture, extérieur, intérieur, fer forgé, entrepreneur, sous-entrepreneur" />
+    <meta http-equiv="refresh" content="30">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<!--BODYYYYYYYYYYYYYYYYYYY-->
+<body>
+    <!--------Début du code pour toute la mise en page du site web-------->
+    <div class="main" >
+        <!--Haut de page--AVEC les choix-->
+        <nav id="home">
+            <div class="logo">
+                <img src="logo.jpg" />
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#nous">À propos</a></li>
+                    <li><a href="#services">Nos services</a></li>
+                    <li><a href="#approche">Notre approche</a></li>
+                    <li><a href="#exemple">Projets</a></li>
+                    <li><a href="#soumission">Nous joindre</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!--Block ou la premiere photo est displayed-->
+        <div class="bande"></div>
+        <!--Description de qui nous sommes-->
+        <div class="nous" id="nous">
+            <h1>À propos</h1>
+            <p>Nous sommes une équipe jeune et motivés Éthique de travail</p>
+        </div>
+        <div class="services" id="services">
+            <h1>Nos services</h1>
+            <p>Peinture de fer forgé clôture, escalier, corniche</p>
+        </div>
+        <div class="approche" id="approche">
+            <h1>Notre approche</h1>
+            <p>Personnalisé professionnel courtois honnete</p>
+        </div>
+        <!-----Block ou on va mettre notre porfolio---- #ID=exemple------>
+        <!-- Container for the image gallery -->
+        <div class="container" id="exemple">
+            <h1>Nos anciens projets</h1>
+
+            <!-- Full width images with number text--
+              <div class="mySlides">
+                  <div class="numbertext">1 / 6</div>
+                  <img src="Siteweb/A.jpeg">
+              </div>
+              <div class="mySlides">
+                  <div class="numbertext">2 / 6</div>
+                  <img src="Siteweb/B.jpeg">
+              </div>
+              <div class="mySlides">
+                  <div class="numbertext">3 / 6</div>
+                  <img src="Siteweb/C.jpeg">
+              </div>
+              <div class="mySlides">
+                  <div class="numbertext">4 / 6</div>
+                  <img src="Siteweb/D.jpeg">
+              </div>
+              <div class="mySlides">
+                  <div class="numbertext">5 / 6</div>
+                  <img src="Siteweb/E.jpeg">
+              </div>
+              <div class="mySlides">
+                  <div class="numbertext">6 / 6</div>
+                  <img src="Siteweb/G.jpeg">
+              </div>-->
+
+              <!-- Next and previous buttons-->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <!--- Image text-->
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+
+                  <!--Thumbnail images-->
+                  <div class="row">
+                      <div class="column">
+                          <img class="demo cursor" src="Siteweb/A.jpeg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+                      </div>
+                      <div class="column">
+                          <img class="demo cursor" src="Siteweb/T.jpeg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+                      </div>
+                      <div class="column">
+                          <img class="demo cursor" src="Siteweb/E.jpeg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+                      </div>
+                      <div class="column">
+                          <img class="demo cursor" src="Siteweb/G.jpeg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+                      </div>
+                      <div class="column">
+                          <img class="demo cursor" src="Siteweb/D.jpeg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+                      </div>
+                      <div class="column">
+                          <img class="demo cursor" src="Siteweb/U.jpeg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+                      </div>
+                  </div>-->
+        </div>
+
+
+        <div class="soumission" id="soumission">
+
+            <h1>
+                N'hésitez pas à nous contacter!
+            </h1>
+            <a href="#home"> <img src="logo.jpg"/></a>
+
+            <div class="email">
+                <img src="Siteweb/Icon_mail.png" />
+                <h1>pintexinc@hotmail.com</h1>
+            </div>
+            <div class="phone">
+                <img src="Siteweb/Icon_mail.png" />
+                <h1>514-546-9011</h1>
+            </div>
+            <form method="post" action="process-form.php">
+                <input type="text" name="name" placeholder="Votre nom"><br />
+                <input type="email" name="email" placeholder="Votre couriel"><br />
+                <input type="text" name="message" placeholder="Votre message" /><br />
+                <input type="submit" value="Envoyer">
+            </form>
+
+        </div>
+    </div>
+
+    <script src="Js/script1.js"></script>
+    <script src="Js/script2.js"></script>
+    <script src="Js/script3.js"></script>
+</body>
+</html>
+
+
+<!-- <div class="box">
+            <h2>Tabbed Image Gallery</h2>
+            <p>Click on the images below:</p>
+        </div>
+
+        <!-- The four columns --
+<div class="row">
+    <div class="column">
+        <img src="Siteweb/A.jpeg" alt="Nature" style="width:100%" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+        <img src="Siteweb/B.jpeg" alt="Snow" style="width:100%" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+        <img src="Siteweb/C.jpeg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+        <img src="Siteweb/D.jpeg" alt="Lights" style="width:100%" onclick="myFunction(this);">
+    </div>
+</div>
+
+<!-- The expanding image container--
+<div class="containers">
+    <!-- Close the image--
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+    <!-- Expanded image
+    <img id="expandedImg" style="width:100%">
+
+    <!-- Image text
+    <div id="imgtext"></div>
+</div>-->
+<!--////////////one way to code the form section////////////////////////////
+    <form method="post" action="/process-form.php">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" value="John"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" value="Doe"><br><br>
+                <input type="submit" value="Submit">
+            </form>
+                -->
+<!--
+        <div class="information">
+            <div class="overlay"></div>
+            <img src="C:\Users\ralph\Downloads\Site\images\paint-brush-logo1.jpg" class="Paint" />
+            <div id="circle">
+                <div class="feature one">
+                    <img src="C:\Users\ralph\Downloads\Site\images\Fence.jpg" />
+                    <div>
+                        <h1>Soumission</h1>
+                        <p>Pour une soumission!</p>
+                    </div>
+                </div>
+                <div class="feature two">
+                    <img src="C:\Users\ralph\Downloads\Site\images\Stair_rail_indoor.jpg" />
+                    <div>
+                        <h1>Je sais pas trop</h1>
+                        <p>Pour qqch!</p>
+                    </div>
+                </div>
+                <div class="feature three">
+                    <img src="C:\Users\ralph\Downloads\Site\images\Outdoor_stairs.jpg" />
+                    <div>
+                        <h1>ici non plus</h1>
+                        <p>Pour qqch d'autre</p>
+                    </div>
+                </div>
+                <div class="feature four">
+                    <img src="C:\Users\ralph\Downloads\Site\images\Soumission.png" />
+                    <div>
+                        <h1>Pire encore</h1>
+                        <p>I really dont know!!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="Controls">
+            <img src="C:\Users\ralph\Downloads\Site\images\up_arrow.png" id="UpBtn">
+            <h3>Change</h3>
+            <img src="C:\Users\ralph\Downloads\Site\images\up_arrow.png" id="DownBtn" />
+        </div>
+        <div class="LINKS">
+            <a href="https://peinturesignature.com/construction-%26-peinture-1" target="_blank">Voir site Nic</a>
+        </div>
+    </div>
+   -->
+<!--
+    var circle = document.getElementById("circle");
+    var UpBtn = document.getElementById("UpBtn");
+    var DownBtn = document.getElementById("DownBtn");
+
+    var rotateValue = circle.style.transform;
+    var rotateSum;
+
+    UpBtn.onclick = function () {
+        rotateSum = rotateValue + "rotate(-90deg)";
+        circle.style.transform = rotateSum;
+        rotateValue = rotateSum;
+    }
+    DownBtn.onclick = function () {
+        rotateSum = rotateValue + "rotate(90deg)";
+        circle.style.transform = rotateSum;
+        rotateValue = rotateSum;
+    }
+    -->

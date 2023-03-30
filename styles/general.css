@@ -63,6 +63,8 @@ nav {
 }
 .bande h1{
     color: white;
+    text-align center
+    margin-top: 50%;
 }
 /*Description de qui nous sommes*/
 .nous {

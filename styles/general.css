@@ -55,7 +55,7 @@ nav {
         }
 /*Block ou la premiere photo est diplayed*/
 .bande {
-    /*background-image: url('Siteweb/esc_home.jpg');*/
+    background-image: url("Siteweb/esc_home.jpg");
     /**/background-size: cover;*/
     width: 100%;
     height: 400px;

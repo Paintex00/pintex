@@ -11,7 +11,7 @@
     position: relative;
     overflow-y: scroll;
     overflow-x: scroll;/*Fix this, being able to scroll left and right*/
-    background: AliceBlue;
+    background: White;
  }
 /*Navigation bar-la ou on voit logo et ou faire choix*/
 nav {

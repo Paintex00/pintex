@@ -78,13 +78,13 @@ nav {
     .nous h1 {
         font-family: "Times New Roman", Times, serif;
         font-size: 40px;
-        color: white;
+        color: CornflowerBlue;
         text-align: center;
     }
     .nous p {
         font-family: "Times New Roman", Times, serif;
         font-size: 25px;
-        color: white;
+        color: CornflowerBlue;
         text-align: left;
         margin-left: 50px;
     }
@@ -97,13 +97,13 @@ nav {
     .services h1 {
         font-family: "Times New Roman", Times, serif;
         font-size: 40px;
-        color: white;
+        color: CornflowerBlue;
         text-align: center;
     }
     .services p {
         font-family: "Times New Roman", Times, serif;
         font-size: 25px;
-        color: white;
+        color: CornflowerBlue;
         text-align: left;
         margin-left: 50px;
     }
@@ -116,13 +116,13 @@ nav {
     .approche h1 {
         font-family: "Times New Roman", Times, serif;
         font-size: 40px;
-        color: white;
+        color: CornflowerBlue;
         text-align: center;
     }
     .approche p {
         font-family: "Times New Roman", Times, serif;
         font-size: 25px;
-        color: white;
+        color: CornflowerBlue;
         text-align: left;
         margin-left: 50px;
     }
@@ -204,7 +204,7 @@ nav {
     .container h1 {
         font-family: "Times New Roman", Times, serif;
         font-size: 40px;
-        color: white;
+        color: CornflowerBlue;
         text-align: center;
     }
 /* Hide the images by default */
@@ -229,7 +229,7 @@ nav {
     width: auto;
     padding: 16px;
     margin-top: -50px;
-    color: white;
+    color: CornflowerBlue;
     font-weight: bold;
     font-size: 20px;
     border-radius: 0 3px 3px 0;
@@ -262,7 +262,7 @@ nav {
     text-align: center;
     background-color: #222;
     padding: 2px 16px;
-    color: white;
+    color: CornflowerBlue;
 }
 
 .row:after {
@@ -319,7 +319,7 @@ nav {
     .email h1 {
         text-align: center;
         font-size: 20px;
-        color: white;
+        color: CornflowerBlue;
        
     }
     .email img {
@@ -338,7 +338,7 @@ nav {
     .phone h1 {
         text-align: center;
         font-size:20px;
-        color: white;
+        color: CornflowerBlue;
     }
     .phone img {
         margin-top: -50px;
@@ -369,7 +369,7 @@ input[type=submit] {
     width: 50%;
     background-color: #0a049d;
     /*#4CAF50*/
-    color: white;
+    color: CornflowerBlue;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
